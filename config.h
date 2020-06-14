@@ -14,7 +14,7 @@ static const char *fonts[] = { "Terminus:size=11", "Siji:size=11" };
 static const char *prompt = NULL;
 
 static const char *colors[SchemeLast][2] = {
-	/*                fg         bg      */
+	/*               fg         bg       */
 	[SchemeNorm] = { "#9aa4bd", "#1b202a" },
 	[SchemeSel]  = { "#1b202a", "#b15e7c" },
 	[SchemeOut]  = { "#1b202a", "#b15e7c" },
